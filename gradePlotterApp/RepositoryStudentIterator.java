@@ -2,7 +2,7 @@ import java.util.Map;
 
 public class RepositoryStudentIterator implements RepositoryIterator {
 
-    private int index = 0;
+    private int index;
     private Map<String, Decorator> studentList;
 
     public RepositoryStudentIterator(Map<String, Decorator> studentList) {
@@ -25,5 +25,4 @@ public class RepositoryStudentIterator implements RepositoryIterator {
         }
         return studentList.get(key);
     }
-
 }
