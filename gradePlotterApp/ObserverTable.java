@@ -1,14 +1,10 @@
 
-
 import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
-
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-
-
 
 public class ObserverTable extends JPanel implements Observer {
     private Repository repository;
