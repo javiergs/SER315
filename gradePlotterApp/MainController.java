@@ -53,8 +53,5 @@ public class MainController {
             } catch (Exception ex) {
             }
         }
-
     }
-
-
 }
