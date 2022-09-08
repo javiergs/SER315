@@ -1,2 +1,3 @@
 Practice your UML knowledge by creating a class diagram for this code.
-It is a legacy system (very smelly) that we will be fixing later.
+<br>
+It is a legacy system (<i>very smelly</i>) that we will be fixing later.
