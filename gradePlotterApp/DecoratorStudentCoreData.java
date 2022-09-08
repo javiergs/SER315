@@ -2,7 +2,7 @@
 
 public class DecoratorStudentCoreData extends Decorator {
 
-	protected String id;
+    protected String id;
     protected String firstName;
     protected String lastName;
     protected String program;
