@@ -20,6 +20,11 @@ public abstract class Decorator {
 	}
 
 	public String toString() {
-		return String.format("ID: " + getID() + ", Name: " + getFirstName() + " " + getLastName() + ", Program: " + getProgram() + ", Level: " + getLevel() + ", ASURITE: " + getAsurite());
+	  return String.format(
+		  "ID: " + getID() + 
+		  ", Name: " + getFirstName() + " " + getLastName() + 
+		  ", Program: " + getProgram() + 
+		  ", Level: " + getLevel() + 
+		  ", ASURITE: " + getAsurite());
 	}
 }
