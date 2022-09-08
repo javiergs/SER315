@@ -28,8 +28,7 @@ public class ObserverPlotter extends JPanel implements Observer {
         ChartPanel panelBarChart = new ChartPanel(barChart);
         add(panelBarChart);
     }
-
-    //Method creates a dataset from the studentList 
+    
     public CategoryDataset createDataset() {
 
         RepositoryIterator iterator = repository.getIterator();
