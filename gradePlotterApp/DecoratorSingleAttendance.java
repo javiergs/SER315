@@ -1,6 +1,5 @@
-
-
 public class DecoratorSingleAttendance {
+
     private String date;
     private float minutes;
 
